@@ -4,7 +4,7 @@ import { FunctionComponent } from 'react';
 import { useGalleryContext } from '../context';
 import { UNSPLASH_API_KEY } from '../config';
 
-const url = `http://api.unsplash.com/search/photos?client_id=${UNSPLASH_API_KEY}`;
+const url = `https://api.unsplash.com/search/photos?client_id=${UNSPLASH_API_KEY}`;
 
 const Gallery: FunctionComponent = () => {
   const { search } = useGalleryContext();
